@@ -22,10 +22,10 @@ Build the packages in the following order:
 4. `rtabmap_sync` – synchronization tools
 5. `rtabmap_odom` – odometry
 6. `rtabmap_slam` – core SLAM logic wrapper
-7. `rtabmap_ros` – main launch and integration node
-8. `rtabmap_rviz_plugins` – RViz visualization tools
-9. `rtabmap_viz` – additional visualization tools
-10. `rtabmap_python` – Python utilities
-11. `rtabmap_launch` – launch files
-12. `rtabmap_examples` – example scripts and demos
-13. `rtabmap_demos` – ready-made demo launchers
+7. `rtabmap_viz` – additional visualization tools
+8. `rtabmap_launch` – launch files
+9. `rtabmap_examples` – example scripts and demos
+10. `rtabmap_demos` – ready-made demo launchers
+11. `rtabmap_ros` – main launch and integration node
+12. `rtabmap_rviz_plugins` – RViz visualization tools
+13. `rtabmap_python` – Python utilities
