@@ -1,5 +1,3 @@
-Here's your content turned into a clean and structured `README.md` file:
-
 ````markdown
 # AGV RTAB-Map + Astra Camera Setup (ROS 2 Humble)
 
