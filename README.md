@@ -41,6 +41,7 @@ sudo apt install ros-humble-pcl-conversions ros-humble-pcl-msgs ros-humble-tf2-g
 # Visualization, conversions, and other core tools
 sudo apt install ros-humble-image-transport ros-humble-cv-bridge ros-humble-tf2-ros ros-humble-tf2-tools
 sudo apt install ros-humble-rviz2 ros-humble-visualization-msgs ros-humble-message-filters
+sudo apt install ros-humble-octomap-msgs ros-humble-grid-map-ros
 
 # PCL and sensor bridge
 sudo apt install ros-humble-pcl-ros
@@ -73,9 +74,9 @@ sudo make install
 1. Clone the ROS interface:
 
 ```bash
-cd ~/Documents/AGV/
+mkdir ~/Documents/AGV/ros_ws && cd ~/Documents/AGV/ros_ws
 git clone https://github.com/introlab/rtabmap_ros.git
-cd rtabmap_ros
+mv rtabmap_ros src
 ```
 
 2. Build with `colcon`, pointing to the core library you installed above:
@@ -84,6 +85,10 @@ cd rtabmap_ros
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -DRTABMap_DIR=~/Documents/AGV/rtabmap_core/build
 ```
 
+##  Note Better
+
+- If your laptop has limited resources ( < 16gb ram), consider building one package at a time.  
+See [Build](./build.md) for detailed instructions.
 ---
 
 After building successfully, source your workspace:
