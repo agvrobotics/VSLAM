@@ -29,3 +29,13 @@ Build the packages in the following order:
 11. `rtabmap_ros` – main launch and integration node
 12. `rtabmap_rviz_plugins` – RViz visualization tools
 13. `rtabmap_python` – Python utilities
+
+After building individually, try building the whole thing all together
+
+```bash
+sudo updatedb
+locate RTABMapConfig.cmake #checks path of your *.cmake
+colcon build --symlink-install \
+  --cmake-args -DCMAKE_BUILD_TYPE=Release \
+  -DRTABMap_DIR=~/Documents/AGV/rtabmap/rtabmap_core/build
+```
