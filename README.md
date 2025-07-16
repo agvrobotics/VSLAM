@@ -85,7 +85,7 @@ mv rtabmap_ros src
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -DRTABMap_DIR=~/Documents/AGV/rtabmap_core/build
 ```
 
-##  Note Better
+##  Note
 
 - If your laptop has limited resources ( < 16gb ram), consider building one package at a time.  
 See [Build](./build.md) for detailed instructions.
