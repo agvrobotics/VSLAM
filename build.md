@@ -39,3 +39,6 @@ colcon build --symlink-install \
   --cmake-args -DCMAKE_BUILD_TYPE=Release \
   -DRTABMap_DIR=~/Documents/AGV/rtabmap/rtabmap_core/build
 ```
+
+## Getting started with RTAB-MAP
+- Refer to [RTAB](./rtab.md)

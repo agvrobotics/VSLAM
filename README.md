@@ -97,3 +97,6 @@ After building successfully, source your workspace:
 source install/setup.bash
 ```
 
+## Getting started with RTAB-MAP
+- Refer to [RTAB](./rtab.md)
+
