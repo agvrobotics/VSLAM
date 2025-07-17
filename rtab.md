@@ -36,8 +36,6 @@ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link camera_link
 ros2 run tf2_tools view_frames
 ```
 
-This will generate a `frames.pdf` file with a visual map of your current TF structure. This will only work if the problem stated at the end is fixed.
-
 ---
 
 ### Get the Camera Frame ID
