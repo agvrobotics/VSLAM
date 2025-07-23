@@ -10,8 +10,8 @@ source install/setup.bash
 Use the following command structure for each package:
 
 ```bash
-colcon build --packages-select <package_name> --symlink-install \
-  --cmake-args -DCMAKE_BUILD_TYPE=Release -DRTABMap_DIR=~/Documents/AGV/rtabmap/rtabmap_core/build
+colcon build --packages-select rtabmap_conversions --symlink-install \
+  --cmake-args -DCMAKE_BUILD_TYPE=Release -DRTABMap_DIR=~/Documents/AGV/RTAB/rtabmap_core/build
 ```
 
 Build the packages in the following order:
