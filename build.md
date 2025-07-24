@@ -10,7 +10,7 @@ source install/setup.bash
 Use the following command structure for each package:
 
 ```bash
-colcon build --packages-select rtabmap_conversions --symlink-install \
+colcon build --packages-select <package_select/> --symlink-install \
   --cmake-args -DCMAKE_BUILD_TYPE=Release -DRTABMap_DIR=~/Documents/AGV/RTAB/rtabmap_core/build
 ```
 
@@ -37,7 +37,7 @@ sudo updatedb
 locate RTABMapConfig.cmake #checks path of your *.cmake
 colcon build --symlink-install \
   --cmake-args -DCMAKE_BUILD_TYPE=Release \
-  -DRTABMap_DIR=~/Documents/AGV/rtabmap/rtabmap_core/build
+  -DRTABMap_DIR=~/Documents/AGV/RTAB/rtabmap_core/build
 ```
 
 ## Getting started with RTAB-MAP
